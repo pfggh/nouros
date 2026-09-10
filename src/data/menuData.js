@@ -28,7 +28,7 @@ export const MENU_ITEMS = [
     category: "pizza",
     price: 14,
     description: "Pesto sauce, feta cheese, cherry tomatoes, fresh basil",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/pesto-pizza.jpeg",
     isVegetarian: true,
     isPopular: true,
   },
@@ -38,7 +38,7 @@ export const MENU_ITEMS = [
     category: "pizza",
     price: 11,
     description: "Tomato sauce, cheese blend, fresh mushrooms, red onion, cherry tomatoes, bell peppers, olives",
-    image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/vegetarian-pizza.jpeg",
     isVegetarian: true,
   },
   {
@@ -47,7 +47,7 @@ export const MENU_ITEMS = [
     category: "pizza",
     price: 13,
     description: "BBQ chicken breast, red onion, sweet corn, pineapple, mushrooms, mozzarella",
-    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/bbq-chicken-pizza.jpeg",
     isPopular: true,
   },
   {
@@ -56,7 +56,7 @@ export const MENU_ITEMS = [
     category: "pizza",
     price: 13,
     description: "Tomato sauce, cheese blend, ham, olives, mushrooms, bell peppers, oregano",
-    image: "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/lebanese-pizza.jpeg",
   },
   {
     id: "piz-5",
@@ -64,7 +64,7 @@ export const MENU_ITEMS = [
     category: "pizza",
     price: 13,
     description: "Classic tomato sauce, melted mozzarella, sliced pepperoni",
-    image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/pepperoni-pizza.jpeg",
     isPopular: true,
   },
   {
@@ -73,7 +73,7 @@ export const MENU_ITEMS = [
     category: "pizza",
     price: 9,
     description: "Traditional tomato sauce, melted cheese blend, fragrant oregano",
-    image: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/margarita-pizza.jpeg",
     isVegetarian: true,
   },
   {
@@ -82,7 +82,7 @@ export const MENU_ITEMS = [
     category: "pizza",
     price: 11,
     description: "House tomato sauce, mozzarella, kashkaval, cheddar, parmesan",
-    image: "https://images.unsplash.com/photo-1573821663912-569905455b1c?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/four-cheese-pizza.jpeg",
     isVegetarian: true,
   },
   {
@@ -91,7 +91,7 @@ export const MENU_ITEMS = [
     category: "pizza",
     price: 18,
     description: "Tomato sauce, mussels, crab chunks, calamari rings, tender shrimps, onion, parsley, mozzarella",
-    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/seafood-pizza.jpeg",
     isSeafood: true,
   },
   {
@@ -100,7 +100,7 @@ export const MENU_ITEMS = [
     category: "pizza",
     price: 22,
     description: "Tomato sauce, fresh salmon slices, mozzarella, capers",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/salmon-pizza.jpeg",
     isSeafood: true,
   },
   {
@@ -109,7 +109,7 @@ export const MENU_ITEMS = [
     category: "pizza",
     price: 12,
     description: "House tomato sauce, cheese blend, caramelized fresh mushrooms, oregano",
-    image: "https://images.unsplash.com/photo-1594007654729-407eedc4be65?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/mushroom-pizza.jpeg",
     isVegetarian: true,
   },
   {
@@ -118,7 +118,7 @@ export const MENU_ITEMS = [
     category: "pizza",
     price: 12,
     description: "Tomato sauce, cheese blend, mushrooms, red onion, chicken breast, sweet corn",
-    image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/chicken-pizza.jpeg",
   },
 
   // --- SALADS ---
@@ -128,7 +128,7 @@ export const MENU_ITEMS = [
     category: "salad",
     price: 9.5,
     description: "Romaine lettuce, parmesan cheese, grilled chicken breast, caesar dressing, croutons",
-    image: "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/chicken-caesar-salad.jpeg",
     isPopular: true,
   },
   {
@@ -146,7 +146,7 @@ export const MENU_ITEMS = [
     category: "salad",
     price: 11,
     description: "Fresh kale, halloumi cheese, strawberries, dried apricots, raisins, citrus slices, walnuts, sweet balsamic",
-    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/kale-salad.jpeg",
     isVegetarian: true,
   },
   {
@@ -155,7 +155,7 @@ export const MENU_ITEMS = [
     category: "salad",
     price: 9.5,
     description: "Iceberg lettuce, feta, corn, cucumber, cherry tomatoes, olives, walnuts, pomegranate, lemon olive oil",
-    image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/greek-salad.jpeg",
     isVegetarian: true,
   },
   {
@@ -164,7 +164,7 @@ export const MENU_ITEMS = [
     category: "salad",
     price: 10,
     description: "Fusilli pasta, tuna, cucumber, corn, olives, lemon mayo sauce",
-    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/tuna-pasta-salad.jpeg",
     isSeafood: true,
   },
   {
@@ -173,7 +173,7 @@ export const MENU_ITEMS = [
     category: "salad",
     price: 8.5,
     description: "Tuna, cucumber, corn, olives, romaine lettuce, lemon mayo sauce",
-    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/tuna-salad.jpeg",
     isSeafood: true,
   },
 
@@ -184,7 +184,7 @@ export const MENU_ITEMS = [
     category: "platters",
     price: 11,
     description: "Italian pasta tossed in rich basil pesto sauce",
-    image: "https://images.unsplash.com/photo-1621996346565-e3def6164019?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/pesto-pasta.jpeg",
     isVegetarian: true,
   },
   {
@@ -193,7 +193,7 @@ export const MENU_ITEMS = [
     category: "platters",
     price: 14,
     description: "Pasta in creamy alfredo sauce topped with chicken breast and parmesan",
-    image: "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/chicken-alfredo.jpeg",
     isPopular: true,
   },
   {
@@ -202,7 +202,7 @@ export const MENU_ITEMS = [
     category: "platters",
     price: 12,
     description: "Marinated chicken strips, bell peppers, onions, served with cheese, sour cream, salsa & tortillas",
-    image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/fajita-chicken-platter.jpeg",
     isPopular: true,
   },
   {
@@ -211,7 +211,7 @@ export const MENU_ITEMS = [
     category: "platters",
     price: 16,
     description: "Marinated philly steak, peppers, onions, cheese, sour cream, salsa & tortillas",
-    image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/philadelphia-steak-platter.jpeg",
   },
   {
     id: "pla-5",
@@ -219,7 +219,7 @@ export const MENU_ITEMS = [
     category: "platters",
     price: 15,
     description: "Crispy chicken breast, rice, bell peppers, onions and carrots in honey BBQ sauce",
-    image: "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/sweet-sour-chicken.jpeg",
   },
   {
     id: "pla-6",
@@ -227,7 +227,7 @@ export const MENU_ITEMS = [
     category: "platters",
     price: 17.5,
     description: "Sautéed shrimps, rice, peppers, onions and carrots in honey BBQ sauce",
-    image: "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/sweet-sour-shrimps.jpeg",
     isSeafood: true,
   },
   {
@@ -236,7 +236,7 @@ export const MENU_ITEMS = [
     category: "platters",
     price: 15,
     description: "Grilled chicken breast, baked potatoes, sautéed broccoli, baby corn, mushrooms & chicken sauce",
-    image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/grilled-chicken-platter.jpeg",
     isPopular: true,
   },
   {
@@ -245,7 +245,7 @@ export const MENU_ITEMS = [
     category: "platters",
     price: 22,
     description: "Grilled philly steak, baked potatoes, sautéed broccoli, baby corn, mushrooms & beef sauce",
-    image: "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/beef-philly-platter.jpeg",
   },
 
   // --- SANDWICHES ---
@@ -273,7 +273,7 @@ export const MENU_ITEMS = [
     category: "sandwiches",
     price: 10,
     description: "Lettuce, chicken breast, pickles, mushrooms, cheese blend & mayo sauce",
-    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/chicken-sub.jpeg",
   },
   {
     id: "snd-4",
@@ -281,7 +281,7 @@ export const MENU_ITEMS = [
     category: "sandwiches",
     price: 13,
     description: "Coleslaw, corn, pickles, cheese, ham, mustard, ketchup & beef frankfurters",
-    image: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/frankfurter-sandwich.jpeg",
   },
   {
     id: "snd-5",
@@ -297,7 +297,7 @@ export const MENU_ITEMS = [
     category: "sandwiches",
     price: 7,
     description: "Crab, pickles, avocado slices, tartar or cocktail sauce, lemon",
-    image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/crab-sub.jpeg",
     isSeafood: true,
   },
   {
@@ -306,7 +306,7 @@ export const MENU_ITEMS = [
     category: "sandwiches",
     price: 6.5,
     description: "Marinated chicken, coleslaw, pickles, fries, ketchup, mustard & garlic sauce",
-    image: "https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/taouk-arabic-bread.jpeg",
     isPopular: true,
   },
   {
@@ -324,7 +324,7 @@ export const MENU_ITEMS = [
     category: "sandwiches",
     price: 7,
     description: "Juicy grilled patty, house sauce, lettuce, tomatoes & melted cheese on brioche",
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/chicken-or-lebanese-burger.jpeg",
     isPopular: true,
   },
 
@@ -335,7 +335,7 @@ export const MENU_ITEMS = [
     category: "appetizers",
     price: 5.5,
     description: "Golden crispy breaded mozzarella sticks served with dip",
-    image: "https://images.unsplash.com/photo-1531749668029-2db88e4276c7?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/mozzarella-sticks.jpeg",
     isVegetarian: true,
     isPopular: true,
   },
@@ -345,7 +345,7 @@ export const MENU_ITEMS = [
     category: "appetizers",
     price: 9,
     description: "Crispy seasoned chicken tenders served with dipping sauce",
-    image: "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/chicken-tenders.jpeg",
     isPopular: true,
   },
   {
@@ -371,7 +371,7 @@ export const MENU_ITEMS = [
     category: "appetizers",
     price: 5,
     description: "Crispy golden fried cheese balls",
-    image: "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/cheese-balls.jpeg",
     isVegetarian: true,
   },
   {
@@ -389,7 +389,7 @@ export const MENU_ITEMS = [
     category: "appetizers",
     price: 3,
     description: "Classic golden salted french fries",
-    image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/french-fries.jpeg",
     isVegetarian: true,
   },
   {
@@ -398,7 +398,7 @@ export const MENU_ITEMS = [
     category: "appetizers",
     price: 4.5,
     description: "Seasoned crispy potato wedges",
-    image: "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=800&q=80",
+    image: "./images/menu/potato-wedges.jpeg",
     isVegetarian: true,
   },
 
